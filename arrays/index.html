@@ -4,16 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        h1 {
-            text-align: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-    </style>
+    <title>Intro to Arrays!</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/spacelab/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <h1>Intro to Arrays!</h1>
-    <script src="./arrays.js"></script>
+    <hr>
+    <h3>List of Groceries</h3>
+    <ul id="groceries"></ul>
+
+    <h4>1. Remove grocery from front of the list</h4>
+    <button class="btn btn-danger"id="remove">Remove from Front</button>
+
+    <h4>2. Remove grocery from the END of the list</h4>
+    <button class="btn btn-warning" id="remove-from-end">Remove from End</button>
+
+
+    <h4>3. Add grocery to the END of the list</h4>
+    <form id="form-end-of-list">
+        <input type="text" id="new-item"/>
+        <button class="btn btn-success">Add item to End</button>
+    </form>
+
+    <h4>4. Add grocery to the FRONT of the list</h4>
+    <form id="form-front-of-list">
+        <input type="text" id="front-of-list">
+        <button class="btn btn-info">Add item to Front</button>
+    </form>
+
+    
+
+
+
+    <script src="./js/arrays.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
 </body>
 </html>

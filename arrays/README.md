@@ -42,10 +42,34 @@ In our `array`, we can access a single value by using its `index`, like below:
 groceries[0]
 ```
 
+### Updating a single value in an array
+```js
+groceries[0] = 'almond milk'
+```
 
 
-### Let's get working!
+#### Knowledge Check
+How could you get the last element in the array?
+<br/>
+
+### The `length` property
+Like strings, all `arrays` have a `length` property that returns the number of elements in the array
+```js
+groceries.length  // => 3
+```
+
+Using what we now know, how else could we get the last element in our groceries array?
+
+
+### Nested Arrays
+In JS `arrays` can hold any data type, even an `array`!
+```js
+const letters = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h']]
+```
+
 
 
 ### Review
 - When should you use an array?
+
+
