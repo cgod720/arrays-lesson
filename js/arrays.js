@@ -14,6 +14,9 @@ const groceries = ["milk", "eggs", "bread"]
 // Accessing a single value in our groceries array
 
 
+// Updating a single value in an array
+
+
 
 // Length property
 

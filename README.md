@@ -69,6 +69,39 @@ const letters = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h']]
 
 
 
+## Array Methods
+Arrays are objects that have both properties (like length) and behaviors that we call methods.
+These methods are actions that the `array` can perform. We use these methods to manipulate the elements in the array.
+
+### `push()`
+To add an element to the end of an array, use `push()` on the array. Whatever is passed to the `push()` method inside the parenthesis will be added to the array.
+You can `push()` more than one value at once
+```js
+groceries.push('yogurt') // adds 'yogurt' to the groceries array
+
+groceries.push('yogurt', 'apple juice') // adds both values to the groceries array
+```
+
+
+### `pop()`
+To remove an element from the END of an array, use the `pop()` method on the array. This method takes no arguments
+```js
+groceries.pop() // removes the last element from groceries
+```
+
+### `shift()`
+This method REMOVES an element from the FRONT of the array, and also takes no arguments
+```js
+groceries.shift() // removes FIRST element from groceries
+```
+
+
+### `unshift()`
+This method ADDS an element to the FRONT of the array, and requires an argument that it will add to the front
+```js
+groceries.unshift('bananas') // adds 'bananas' as first element in the array
+```
+
 ### Review
 - When should you use an array?
 
