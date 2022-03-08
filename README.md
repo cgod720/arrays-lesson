@@ -7,7 +7,7 @@
 - Use different Array methods
 
 ## Arrays
-`Arrays` are a reference data type which can hold `multiple values` unlike the primitive data types we have seen already that can only hold one.
+`Arrays` are a [reference data type](https://www.freecodecamp.org/news/primitive-vs-reference-data-types-in-javascript/) which can hold `multiple values` unlike the primitive data types we have seen already that can only hold one.
 <br/>
 
 `Arrays` are used for ordered collections of related data and are organized by `index`
@@ -49,7 +49,10 @@ groceries[0] = 'almond milk'
 
 
 #### Knowledge Check
-How could you get the last element in the array?
+1. Create an array of names of people or pets that you know and save it to a variable called `names`.
+1. Console log the `second` name in `names`.
+1. Update the first value in the array to be a different name. 
+1. How could you get the last element in the array?
 <br/>
 
 ### The `length` property

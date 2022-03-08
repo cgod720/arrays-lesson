@@ -30,7 +30,7 @@ populate()
 const removeButton = document.querySelector('#remove')
 removeButton.addEventListener('click', () => {
     // Write your code below here
-    groceries.shift()
+    
     
     
     // Do not change anything under this line
@@ -42,7 +42,7 @@ removeButton.addEventListener('click', () => {
 const removeFromEnd = document.querySelector('#remove-from-end')
 removeFromEnd.addEventListener('click', () => {
     //Write your code below this line
-    groceries.pop()
+    
     
     
     // Do not change anything below this line
@@ -58,7 +58,7 @@ form.addEventListener('submit', (e) => {
     let item = document.querySelector('#new-item').value
 
     // Write your code below this line
-    groceries.push(item)
+
 
 
     // Do not change anything under this line
@@ -71,10 +71,10 @@ const frontOfListForm = document.querySelector('#form-front-of-list')
 frontOfListForm.addEventListener('submit', (e) => {
     e.preventDefault()
     // item is the value we write inside the form
-    item = document.querySelector('#front-of-list').value
+    let item = document.querySelector('#front-of-list').value
 
     // Write your code below this line
-    groceries.unshift(item)
+    
 
     // Do not change anything below this line
     frontOfListForm.reset()
