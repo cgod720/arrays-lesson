@@ -81,3 +81,5 @@ frontOfListForm.addEventListener('submit', (e) => {
     populate()
 })
 
+
+// 5. BONUS: Use what you know about `loops` to iterate over the groceries array and log each item to the console.
